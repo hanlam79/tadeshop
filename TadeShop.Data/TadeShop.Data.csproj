@@ -49,7 +49,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Infrastruture\DbFactory.cs" />
+    <Compile Include="Infrastruture\Disposable.cs" />
+    <Compile Include="Infrastruture\IDbFactory.cs" />
+    <Compile Include="Infrastruture\IRepository.cs" />
+    <Compile Include="Infrastruture\IUnitOfWork.cs" />
+    <Compile Include="Infrastruture\RepositoryBase.cs" />
+    <Compile Include="Reposittories\TadeShopDbContext.cs" />
+    <Compile Include="Infrastruture\UnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reposittories\ProductCategoryRepository.cs" />
+    <Compile Include="Reposittories\ProductRepository.cs" />
+    <Compile Include="TadeShopDbContext.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -60,7 +71,12 @@
       <Project>{0e5bddc4-7033-4707-8758-46e718ff75cd}</Project>
       <Name>Tade.Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TadeShop.Model\TadeShop.Model.csproj">
+      <Project>{4c3b5c66-4313-4c8f-803c-76d171bee33c}</Project>
+      <Name>TadeShop.Model</Name>
+    </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

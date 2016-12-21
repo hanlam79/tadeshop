@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TadeShop.Model", "TadeShop.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TadeShop.Data", "TadeShop.Data\TadeShop.Data.csproj", "{1816E407-BDDD-49A4-A4A9-D69B9EE560D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeduShop.Service", "TeduShop.Service\TeduShop.Service.csproj", "{67C04F89-716B-4982-A72B-F33193AAD8DC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TadeShop.Service", "TeduShop.Service\TadeShop.Service.csproj", "{67C04F89-716B-4982-A72B-F33193AAD8DC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TadeShop.UnitTest", "TadeShop.UnitTest\TadeShop.UnitTest.csproj", "{2C46BCD1-0638-4C65-BDA5-0FF1615DEE54}"
 EndProject

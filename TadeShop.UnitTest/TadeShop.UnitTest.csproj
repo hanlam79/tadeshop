@@ -69,9 +69,9 @@
       <Project>{c0a0fddd-8d00-44f5-991f-5df76474d65d}</Project>
       <Name>TadeShop.Web</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TeduShop.Service\TeduShop.Service.csproj">
+    <ProjectReference Include="..\TeduShop.Service\TadeShop.Service.csproj">
       <Project>{67c04f89-716b-4982-a72b-f33193aad8dc}</Project>
-      <Name>TeduShop.Service</Name>
+      <Name>TadeShop.Service</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
